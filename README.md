@@ -38,6 +38,14 @@ Start daemon
 
     ./src/zend 
     ./src/zend -daemon
+    
+Generate wallet addres
+
+    ./src/zen-cli getnewaddress
+
+and
+
+     ./src/zen-cli z_getnewaddress
   
 Build pool sources:
   
@@ -48,6 +56,15 @@ Build pool sources:
     npm install
 
     sudo service redis-server restart
+    
+Config you web-site
+    
+    nano config.json
+
+Say you wallet addres in pool-config
+    
+    
+    nano pool_configs/zen.conf
 
 
 
