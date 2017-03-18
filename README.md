@@ -90,9 +90,9 @@ Miner connect in 3357 port
 
 Donate
 
-+Bitcoin 3Jtuqsq5pEkWiFCp3yThmAvCM2q5y51tyS
++ Bitcoin 3Jtuqsq5pEkWiFCp3yThmAvCM2q5y51tyS
 
-+Zcash t1bjfQmQkfFs39gpeEPCV55SQ7YyuW1qmYL
++ Zcash t1bjfQmQkfFs39gpeEPCV55SQ7YyuW1qmYL
 
-+Zen t1azCzJxSoWCrZkzg35BpKnmVE6BnfVECnT
++ Zen t1azCzJxSoWCrZkzg35BpKnmVE6BnfVECnT
 
