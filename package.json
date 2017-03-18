@@ -1,0 +1,61 @@
+{
+    "name": "z-nomp",
+    "version": "0.0.4",
+    "description": "Zclassic (Equihash) stratum mining pool based on NOMP",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "zclassic",
+        "zcash",
+        "equihash"
+    ],
+    "homepage": "https://github.com/z-classic/z-nomp",
+    "bugs": {
+        "url": "https://github.com/z-classic/z-nomp/issues"
+    },
+    "license": "MIT",
+    "author": "Joshua Yabut",
+    "contributors": [
+        "aayanl",
+        "sennevb",
+        "Matthew Little",
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "init.js",
+    "bin": {
+        "block-notify": "./scripts/blockNotify.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/z-classic/z-nomp.git"
+    },
+    "dependencies": {
+        "stratum-pool": "git+https://github.com/z-classic/node-stratum-pool.git",
+        "dateformat": "*",
+        "node-json-minify": "*",
+        "redis": "*",
+        "mysql": "*",
+        "async": "*",
+        "express": "*",
+        "body-parser": "*",
+        "compression": "*",
+        "dot": "*",
+        "colors": "*",
+        "node-watch": "*",
+        "request": "*",
+        "nonce": "*",
+        "bignum": "*",
+        "extend": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": { 
+         "start": "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD/node_modules/stratum-pool/node_modules/equihashverify/build/Release/:$PWD/node_modules/equihashverify/build/Release/ node init.js"
+    }
+}
+
