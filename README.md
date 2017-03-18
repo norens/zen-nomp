@@ -76,6 +76,11 @@ Say you wallet addres in pool-config
     
     nano pool_configs/zen.conf
 
+Start pool
+
+    cd nomp-zen
+    
+    npm start
 
 
 Miner connect in 3357 port  
