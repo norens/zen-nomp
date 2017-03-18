@@ -14,7 +14,7 @@
     "walletInterval": 2.5,
 
     "rewardRecipients": {
-        t1ZQRkyjzSWjh9AMtgvnbJCNFq5Zyud3FYg : 1;
+        "t1ZQRkyjzSWjh9AMtgvnbJCNFq5Zyud3FYg" : 1
     },
 
     "tlsOptions": {
@@ -25,7 +25,7 @@
     },
 
     "paymentProcessing": {
-        "enabled": true,
+        "enabled": false,
         "paymentInterval": 20,
         "minimumPayment": 0.1,
         "daemon": {
