@@ -1,19 +1,20 @@
 {
-    "enabled": false,
-    "coin": "zclassic.json",
+    "enabled": true,
+    "coin": "zen.json",
 
-    "address": "t1dfrrxCHek2ts987VpZsRmFKBvdcBJ1Cqd",
+    "address": "t1ZQRkyjzSWjh9AMtgvnbJCNFq5Zyud3FYg",
     "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
 
-    "zAddress": "ztqgT4xsouCyjHXrFtXnDVgtvPRmURMgHQw2gd39dLdtoYkmPACScHturZjqsNdAPtP6JCLaWmZmYDqbjCMRgdCfQ2vjY2K",
+    "zAddress": "zcWCo8omWppcXkVa3uR6LWWi36s3s8mhFxuM75Sh8YXtnCjZgSgpBkz2ddbgzu1RbbYvHaABGehWuxTSmDdm6xtvnvV4eQ2",
     "_comment_zAddress": "a private address used to send coins to tAddress.",
 
-    "tAddress": "tmLqYHEnCiL4dpktEKdAKeRjPdkxNtJVWfb",
+    "tAddress": "t1ZQRkyjzSWjh9AMtgvnbJCNFq5Zyud3FYg",
     "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
 
     "walletInterval": 2.5,
 
     "rewardRecipients": {
+        t1ZQRkyjzSWjh9AMtgvnbJCNFq5Zyud3FYg : 1;
     },
 
     "tlsOptions": {
@@ -30,8 +31,8 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 8232,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "you_user",
+            "password": "you_pass"
         }
     },
 
@@ -53,8 +54,8 @@
         {
             "host": "127.0.0.1",
             "port": 8232,
-            "user": "rpcuser",
-            "password": "rpcpassword"
+            "user": "you_user",
+            "password": "you_pass"
         }
     ],
 
