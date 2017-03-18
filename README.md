@@ -18,6 +18,7 @@ Download sources
   git clone https://github.com/norens/zen-nomp.git nomp-zen
 
 Build coin sources
+
   cd zencoin/
   & ./zcutil/build.sh -j$(nproc)
   & ./zcutil/fetch-params.sh
