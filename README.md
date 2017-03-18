@@ -56,6 +56,8 @@ Generate wallet addres
 and
 
      ./src/zen-cli z_getnewaddress
+     
+More command https://github.com/zcash/zcash/blob/v1.0.1/doc/payment-api.md
   
 Build pool sources:
   
