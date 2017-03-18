@@ -87,4 +87,4 @@ Start pool
 
 Miner connect in 3357 port  
 
-  
+- Donate
