@@ -44,6 +44,11 @@ Build pool sources:
     cd nomp-zen
   
     npm update
+    
+    npm install
+
+    sudo service redis-server restart
+
 
 
   
