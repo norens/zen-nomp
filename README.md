@@ -1,4 +1,14 @@
 # zen-nomp
+
+Requirements
+
+Currently, you will need:
+
++ Linux Ubuntu 16.04
++ 64-bit
++ 4GB of free memory(orr swap 4gb)
+
+
 install ubuntu server and get it updated:
 
     sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
@@ -68,6 +78,6 @@ Say you wallet addres in pool-config
 
 
 
-  
+Miner connect in 3357 port  
 
   
