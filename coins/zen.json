@@ -1,6 +1,6 @@
 {
-    "name": "zclassic",
-    "symbol": "zcl",
+    "name": "zencoin",
+    "symbol": "zen",
     "algorithm": "equihash",
     "peerMagic": "24e92764"
 }
