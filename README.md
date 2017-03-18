@@ -19,14 +19,27 @@ Download sources
 
 Build coin sources
   cd zencoin/
-  ./zcutil/build.sh -j$(nproc)
-  ./zcutil/fetch-params.sh
-  cd
+  & ./zcutil/build.sh -j$(nproc)
+  & ./zcutil/fetch-params.sh
+  
+  nano /home/zen/.zen/zen.conf
+  
+    testnet=0
+    addnode=69.164.218.197
+    addnode=10.0.0.2:8233
+    server=1
+    rpcuser=you_user
+    rpcpassword=you_pass
+    rpcport=8232
+    rpcconnect=127.0.0.1
   
 Build pool sources
   
-  cd 
-  nomp-zen
+  cd nomp-zen
+  
+  npm update
+
+
   
 
   
