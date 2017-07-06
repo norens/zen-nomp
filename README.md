@@ -94,5 +94,3 @@ Donate
 
 + Zcash t1bjfQmQkfFs39gpeEPCV55SQ7YyuW1qmYL
 
-+ Zen t1azCzJxSoWCrZkzg35BpKnmVE6BnfVECnT
-
