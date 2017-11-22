@@ -1,5 +1,8 @@
 # zen-nomp
 
+# me super pool 
++http://coinpool.cloud/
+
 Requirements
 
 Currently, you will need:
