@@ -27,7 +27,7 @@ Description:
   
 Download sources:
 
-    git clone https://github.com/zencashio/zen.git zencin
+    git clone https://github.com/zencashio/zen.git zencoin
 
     git clone https://github.com/norens/zen-nomp.git nomp-zen
 
